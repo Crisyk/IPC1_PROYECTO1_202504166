@@ -25,9 +25,19 @@ public class Main {
 
     static void cargarLibrosDemo() {
 
+        // Libros originales
         libros.add(new Libro("L1","1234567890","Java Básico","Autor A","Programación",2020,5));
         libros.add(new Libro("L2","1234567891","Estructuras de Datos","Autor B","Programación",2019,3));
         libros.add(new Libro("L3","1234567892","Base de Datos","Autor C","Tecnología",2021,4));
+
+        // Nuevos libros agregados para pruebas
+        libros.add(new Libro("L4","1234567893","Clean Code","Robert C. Martin","Ingeniería",2008,5));
+        libros.add(new Libro("L5","1234567894","El Señor de los Anillos","J.R.R. Tolkien","Fantasía",1954,2));
+        libros.add(new Libro("L6","1234567895","Cien Años de Soledad","Gabriel García Márquez","Novela",1967,3));
+        libros.add(new Libro("L7","1234567896","Introducción a los Algoritmos","Thomas H. Cormen","Programación",2009,4));
+        libros.add(new Libro("L8","1234567897","Patrones de Diseño","Erich Gamma","Ingeniería",1994,2));
+        libros.add(new Libro("L9","1234567898","Inteligencia Artificial","Stuart Russell","Tecnología",2021,3));
+        libros.add(new Libro("L10","1234567899","Don Quijote de la Mancha","Miguel de Cervantes","Clásico",1605,1));
     }
 
     static void cargarUsuarios() {
